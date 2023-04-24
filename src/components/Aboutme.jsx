@@ -27,7 +27,7 @@ const Aboutme = () => {
                                     Full Stack Developer,
                                 </span>
 
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptate quos corporis, dolorem aliquam alias, reiciendis quo ipsam adipisci nam odit sint sit quod velit culpa praesentium numquam officiis omnis.
+                                Programming is one of the things that I like the most and that I would like to learn a lot more about.
                                 <p className='container-infoabout'> <span className='info-about'> <i className="fa-solid fa-phone fa-sm"></i>  +593 992444232 </span></p>
                                 <p className='container-infoabout'><span className='info-about'> <i className="fa-solid fa-location-dot fa-lg"></i> Ecuador</span></p>
                                 <p className='container-infoabout'><span className='info-about'> <i className="fa-solid fa-envelope fa-sm"></i> martinezgilersunny@gmail.com </span></p>
