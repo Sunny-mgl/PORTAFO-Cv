@@ -8,13 +8,13 @@ const WaveComponents = () => {
             <Wave
                 data-bs-theme="light"
                 className='wave'
-                fill='pink'
+                fill= '#845EC2'
                 //  paused={false}
                 paused={false}
                 options={
                     {
-                        height: 80,
-                        amplitude: 70,
+                        height: 70,
+                        amplitude: 60,
                     }
                 }
             />
