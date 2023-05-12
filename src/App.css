@@ -81,6 +81,12 @@ section[id] {
   width: 100%;
   height: 78vh;
   border-radius: 10px;
+  transition: 2s;
+}
+
+.home-container2:hover{
+  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
+  transition: 1s;
 }
 
 .text {
@@ -255,9 +261,14 @@ section[id] {
   width: 100%;
   height: 160vh;
   border-radius: 10px;
-
+  transition: 2s;
 }
 
+.aboutme2-container:hover{
+  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
+  transition: 1s;
+}
+ 
 .info {
   padding: 2rem;
 }
@@ -391,6 +402,12 @@ section[id] {
   width: 100%;
   height: 80vh;
   border-radius: 10px;
+  transition: 2s;
+}
+
+.skill2-container:hover{ 
+  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
+  transition: 1s;
 }
 
 .skill {
@@ -480,6 +497,7 @@ section[id] {
   width: 15rem;
   border-radius: 12px;
   margin-right: 20px;
+  transition: 1s;
 }
 
 .img-react h1 {
@@ -496,6 +514,7 @@ section[id] {
   width: 15rem;
   border-radius: 12px;
   margin-right: 20px;
+  transition: 1s;
 }
 
 .img-node h1 {
@@ -512,6 +531,7 @@ section[id] {
   width: 15rem;
   border-radius: 12px;
   margin-right: 20px;
+  transition: 1s;
 }
 
 .img-js h1 {
@@ -528,6 +548,7 @@ section[id] {
   width: 15rem;
   border-radius: 12px;
   margin-right: 20px;
+  transition: 1s;
 }
 
 .img-post h1 {
@@ -544,6 +565,7 @@ section[id] {
   width: 15rem;
   border-radius: 12px;
   margin-right: 20px;
+  transition: 1s;
 }
 
 .img-html h1 {
@@ -558,6 +580,7 @@ section[id] {
   background-color: #f1b4e085;
   width: 15rem;
   border-radius: 12px;
+  transition: 1s;
 }
 
 .img-css h1 {
@@ -570,30 +593,44 @@ section[id] {
 
 .img-react:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .img-node:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .img-js:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .img-css:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .img-html:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(8, 8, 8, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .img-node:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .img-post:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .icons2 {
@@ -623,9 +660,13 @@ section[id] {
   height: 79vh;
   border-radius: 10px;
   padding: 2rem;
+  transition: 2s;
 }
 
-
+.project2-container:hover{
+  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
+  transition: 1s;
+}
 
 .container-scroll {
   background: #d9b4f79c;
@@ -816,6 +857,12 @@ figure img {
   padding: 1.5rem;
   display: grid;
   margin: auto;
+  transition: 2s;
+}
+
+.contact2-container:hover{
+  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
+  transition: 1s;
 }
 
 .form h2 {
