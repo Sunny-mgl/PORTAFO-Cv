@@ -68,7 +68,7 @@ const Contactme = () => {
                     </form>
                 </div>
             </div>
-            <div  >
+            <div className='conatiner-arrow' >
                 <a className='arrow' href="/"> <i className="fa-solid fa-arrow-up fa-bounce fa-xl"></i></a>
             </div>
         </div>

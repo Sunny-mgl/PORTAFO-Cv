@@ -139,6 +139,7 @@ section[id] {
   padding: 2rem;
   cursor: pointer;
   margin-right: 1rem;
+  transition: 1s;
 }
 
 .linkedin:hover {
@@ -146,6 +147,7 @@ section[id] {
   box-shadow: rgb(30, 42, 54) 0px 20px 30px -10px;
   border-radius: 10px;
   background: #2fafb82a;
+  transition: 1s;
 }
 
 .git {
@@ -154,6 +156,7 @@ section[id] {
   cursor: pointer;
   margin-left: 4rem;
   margin-right: 3rem;
+  transition: 1s;
 }
 
 .git:hover {
@@ -161,6 +164,7 @@ section[id] {
   box-shadow: rgb(30, 42, 54) 0px 20px 30px -10px;
   border-radius: 10px;
   background: #2fafb82a;
+  transition: 1s;
 }
 
 .cv {
@@ -168,6 +172,8 @@ section[id] {
   padding: 2rem;
   cursor: pointer;
   margin-left: 3rem;
+  transition: 1s;
+
 }
 
 .cv:hover {
@@ -175,6 +181,7 @@ section[id] {
   box-shadow: rgb(30, 42, 54) 0px 20px 30px -10px;
   border-radius: 10px;
   background: #2fafb82a;
+  transition: 1s;
 }
 
 
@@ -1034,6 +1041,8 @@ padding: 1rem;  width: 5%;
   }
 }
 
+/* ----------------------HOME------------------------ */
+
 @media screen and (min-width: 400px) {
   .home-name {
     margin-right: 2rem;
@@ -1052,12 +1061,19 @@ padding: 1rem;  width: 5%;
   .logo {
     margin-left: 1rem;
   }
+  .home-container{
+    height: fit-content;
+  }
+  .home-container2{
+   height: fit-content;
+   padding: 2rem 1rem 4rem;
+  }
 }
 
 
 /* ----------Contact Me-------------- */
 
-@media screen and (min-width: 342px) {
+@media screen and (min-width: 312px) {
 
   .names {
     display: grid;
@@ -1090,6 +1106,10 @@ padding: 1rem;  width: 5%;
 
   .form h2{
     margin-top: -2rem;
+  }
+
+  .conatiner-arrow{
+   margin-right: 3rem;
   }
 
 }
@@ -1209,7 +1229,7 @@ padding: 1rem;  width: 5%;
 
 /* -----------About Me---------------- */
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 312px) {
   .foto {
     width: 40%;
 
@@ -1217,6 +1237,9 @@ padding: 1rem;  width: 5%;
 
   .foto-about {
     text-align: center;
+  }
+  .aboutme2-container{
+    height: fit-content;
   }
 }
 
