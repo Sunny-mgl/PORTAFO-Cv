@@ -13,7 +13,7 @@ const Projects = () => {
         <div className='project-container' id='project'>
             <div className='hey4'>
                 <div className='titleproject' >
-                    <a href='#contact' className='h1titleproject' ></a>
+                    <a href='#contact' className='h1titleproject' ><div className='fa-minus4'></div></a>
                 </div>
 
                 <div className='project2-container'>

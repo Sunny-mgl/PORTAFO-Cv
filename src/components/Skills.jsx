@@ -13,7 +13,7 @@ const Skills = () => {
             <div className='hey3'>
                 <div className='skill2-container'>
                     <div className='skillh1'>
-                        <h1 className='myskillh1'> <a  href="#project" className='contact-btn'></a>  </h1>
+                        <h1 className='myskillh1'> <a  href="#project" className='contact-btn'></a> <div className='fa-minus3'></div> </h1>
                     </div>
                     <article data-aos="flip-left" className='skill'>
                         {/* <img src={back} className='new' alt="" /> */}

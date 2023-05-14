@@ -23,7 +23,7 @@ const Aboutme = () => {
 
                                 <span className='aboutmeh1'>
                                     {/* <button  className='btn-skill'></button> */}
-                                    <a href="#skill" className='btn-skill' ></a>
+                                    <a href="#skill" className='btn-skill' ><div className='fa-minus2'></div></a>
                                     Full Stack Developer,
                                 </span>
 

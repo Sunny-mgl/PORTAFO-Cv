@@ -9,6 +9,7 @@ class Home extends Component {
                 <div className='home-container2'>
                     <div className='btn-container'>
                         <a href="#about" className='btn' ></a>
+                        <div className='fa-minus'></div>
                     </div>
                     <h1 className='bienvenidos-name'>
                         {/* <span className='bienvenidos-span'> HOLA! </span> */}
