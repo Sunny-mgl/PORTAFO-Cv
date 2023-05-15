@@ -85,13 +85,26 @@ section[id] {
   /* height: 78vh; */
   height: fit-content;
   border-radius: 10px;
-  transition: 2s;
   padding: 2rem 1rem 4rem;
+  box-shadow: rgba(204, 2, 170, 0.25) 0px 30px 60px -12px inset, rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset;
+  -webkit-animation: shadowFadeOut 1s;
 }
 
-.home-container2:hover {
-  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
-  transition: 1s;
+.home-container2:hover{
+  -webkit-animation: shadowFade 1s;
+    box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
+}
+
+@-webkit-keyframes shadowFade {
+  0% { box-shadow: rgba(68, 57, 66, 0.25) 0px 30px 60px -12px inset, rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset; }
+  50% { box-shadow: none; }
+  100% {   box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px; }
+}
+
+@-webkit-keyframes shadowFadeOut {
+  0% {   box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px; }
+  50% { box-shadow: none; }
+  100% { box-shadow: rgba(204, 2, 170, 0.25) 0px 30px 60px -12px inset,  rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset; }
 }
 
 .text {
@@ -295,12 +308,15 @@ section[id] {
   height: 160vh;
   border-radius: 10px;
   transition: 2s;
+  box-shadow: rgba(204, 2, 170, 0.25) 0px 30px 60px -12px inset, rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset;
+  -webkit-animation: shadowFadeOut 1s;
 }
 
-.aboutme2-container:hover {
-  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
-  transition: 1s;
+.aboutme2-container:hover{
+  -webkit-animation: shadowFade 1s;
+    box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
 }
+
 
 .info {
   padding: 2rem;
@@ -459,13 +475,15 @@ section[id] {
   width: 100%;
   height: 80vh;
   border-radius: 10px;
-  transition: 2s;
+  box-shadow: rgba(204, 2, 170, 0.25) 0px 30px 60px -12px inset, rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset;
+  -webkit-animation: shadowFadeOut 1s;
 }
 
-.skill2-container:hover {
-  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
-  transition: 1s;
+.skill2-container:hover{
+  -webkit-animation: shadowFade 1s;
+    box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
 }
+
 
 .skill {
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -542,8 +560,8 @@ section[id] {
   height: 2px;
   background: #972c9b;
   position: absolute;
-  margin-top: 7.9%;
-  margin-left:  18%;
+  margin-top: 2rem;
+  left: 36%;
   transform: translate(-50%, -50%);
 }
 
@@ -557,6 +575,7 @@ section[id] {
   background: rgb(241, 165, 218);
   animation: animate 5s linear infinite;
 }
+
 
 .icons {
   text-align: center;
@@ -740,13 +759,15 @@ section[id] {
   height: 79vh;
   border-radius: 10px;
   padding: 2rem;
-  transition: 2s;
+  box-shadow: rgba(204, 2, 170, 0.25) 0px 30px 60px -12px inset, rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset;
+  -webkit-animation: shadowFadeOut 1s;
 }
 
-.project2-container:hover {
-  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
-  transition: 1s;
+.project2-container:hover{
+  -webkit-animation: shadowFade 1s;
+    box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
 }
+
 
 .container-scroll {
   background: #d9b4f79c;
@@ -754,7 +775,7 @@ section[id] {
   margin: auto;
   height: 65vh;
   padding: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   border-radius: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -798,7 +819,7 @@ section[id] {
   height: 2px;
   background: #972c9b;
   position: absolute;
-  margin-top: 1.3rem;
+  margin-top: 1.9rem;
   margin-left: -1.5rem;
   transform: translate(-50%, -50%);
 }
@@ -960,12 +981,13 @@ figure img {
   padding: 1.5rem;
   display: grid;
   margin: auto;
-  transition: 2s;
+  box-shadow: rgba(204, 2, 170, 0.25) 0px 30px 60px -12px inset, rgba(219, 109, 186, 0.3) 0px 18px 36px -18px inset;
+  -webkit-animation: shadowFadeOut 1s;
 }
 
-.contact2-container:hover {
-  box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
-  transition: 1s;
+.contact2-container:hover{
+  -webkit-animation: shadowFade 1s;
+    box-shadow: rgba(102, 82, 82, 0.56) 0px 22px 70px 4px;
 }
 
 .form h2 {
@@ -1455,6 +1477,13 @@ textarea {
 /* ---------------SKILL------------------------ */
 
 
+@media screen and (min-width: 400px) {
+  .fa-minus3{
+    margin-top: 2.6rem;
+    left: 40%;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .skill {
     width: 90%;
@@ -1490,5 +1519,17 @@ textarea {
 
   .img-css{
     height: 16.6rem;
+  }
+
+  .fa-minus3{
+    margin-top: 2.6rem;
+    left: 41%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .fa-minus3{
+    margin-top: 3.6rem;
+    left: 45%;
   }
 }
