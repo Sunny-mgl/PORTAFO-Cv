@@ -113,7 +113,7 @@ section[id] {
   height: 2px;
   background: #972c9b;
   position: absolute;
-  top: 32%;
+  margin-top: 1.8rem;
   left: 46%;
   transform: translate(-50%, -50%);
 }
@@ -542,8 +542,8 @@ section[id] {
   height: 2px;
   background: #972c9b;
   position: absolute;
-  margin-top: 3.9%;
-  margin-left:  42%;
+  margin-top: 7.9%;
+  margin-left:  18%;
   transform: translate(-50%, -50%);
 }
 
@@ -1170,16 +1170,12 @@ textarea {
   }
 
   .fa-minus{
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   margin-left: 2rem;
   }
 }
 
-@media screen and (min-width: 372px){
-  .fa-minus{
-    margin-top: 3.5rem;
-    }
-}
+
 
 /* ----------Contact Me-------------- */
 
@@ -1458,32 +1454,8 @@ textarea {
 
 /* ---------------SKILL------------------------ */
 
-@media screen and (min-width: 300px) {
-  .fa-minus3 {
-    margin-top: 2rem;
-    margin-left: 3.2rem;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .fa-minus3 {
-    margin-top: 2rem;
-    margin-left: 4.2rem;
-  } 
-}
-
-@media screen and (min-width: 500px) {
-  .fa-minus3 {
-    margin-left: 8.7rem;
-  }
-}
 
 @media screen and (min-width: 600px) {
-  /* .fa-minus3 {
-    margin-top: 2.5rem;
-    margin-left: 13.7rem;
-  } */
-
   .skill {
     width: 90%;
     overflow-y: hidden;
@@ -1520,31 +1492,3 @@ textarea {
     height: 16.6rem;
   }
 }
-
-@media screen and (min-width: 700px) {
-  .fa-minus3 {
-    margin-top: 2.5rem;
-    margin-left: 13.7rem;
-  }
-}
-
- @media screen and (min-width: 800px) {
-  .fa-minus3 {
-    margin-top: 2.5rem;
-    margin-left: 21.7rem;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .fa-minus3 {
-    margin-top: 3.4rem;
-    margin-left: 34.7rem;
-  }
-} 
-
-/* @media screen and (max-width: 380px){
-  .fa-minus3{
-    top: 1rem;
-    margin-left: 5rem;
-  }
-} */
